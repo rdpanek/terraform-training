@@ -18,3 +18,7 @@ resource "digitalocean_droplet" "example" {
 output "ip_addr" {
   value = digitalocean_droplet.example.ipv4_address
 }
+
+output "example_price_hourly" {
+  value = digitalocean_droplet.example.price_monthly
+}

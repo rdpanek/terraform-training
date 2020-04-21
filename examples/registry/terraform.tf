@@ -3,7 +3,7 @@ variable "base_domain" {}
 provider "digitalocean" {}
 
 data "digitalocean_ssh_key" "default" {
-  name = "default"
+  name = "rdpanek"
 }
 
 data "digitalocean_domain" "default" {
